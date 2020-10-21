@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/baseStyle.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
 </head>
-<body>
+<body style="background-color: black;">
     <style>
         /* Arrows */
         .slick-prev,
@@ -64,8 +64,7 @@
             line-height: 1;
 
             opacity: .75;
-            color: rgb(134, 43, 134);
-            -webkit-text-stroke: 0.5px #fff;
+            color: white;
 
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -73,11 +72,11 @@
 
         .slick-prev
         {
-            left: 25px;
+            left: -33px;
         }
         [dir='rtl'] .slick-prev
         {
-            right: 25px;
+            right: -33px;
             left: auto;
         }
         .slick-prev:before
@@ -91,12 +90,12 @@
 
         .slick-next
         {
-            right: 25px;
+            right: -30px;
         }
         [dir='rtl'] .slick-next
         {
             right: auto;
-            left: 25px;
+            left: -30px;
         }
         .slick-next:before
         {
@@ -113,22 +112,24 @@
             z-index: 1;
         }
     </style>
-    <div style="height: 100vh;">
-        <div class="microsite-main-image-slide">
-            <div style="height:100vh;"> 
-                <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
-                    <img src='./image/1.jpg' style="width:100%;"/>
-                </a>
-            </div>
-            <div style="height:100vh;"> 
-                <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
-                    <img src='./image/2.jpg' style="width:100%;"/>
-                </a>
-            </div>
-            <div style="width:100%;">
-                <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
-                    <img src='./image/3_1.jpg' style="width:100%;"/>
-                </a>
+    <div style="width: 90%; margin: 0 auto; position: relative; top: 6em;">
+        <div>
+            <div class="microsite-main-image-slide" style="width: 86%; margin: 0 auto;">
+                <div> 
+                    <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
+                        <img src='./image/1.jpg' style="width: 100%; height: 90%;"/>
+                    </a>
+                </div>
+                <div> 
+                    <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
+                        <img src='./image/2.jpg' style="width: 100%; height: 90%;"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://michaa.sisun.com/shop/collection_view?colIdx=3225">
+                        <img src='./image/3_1.jpg' style="width: 100%; height: 90%;"/>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
